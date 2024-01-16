@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name=author content="Matteus Engström">
+    <meta name="description" content="The home page">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" type = "text/css" href="cards.css?rnd=12345"/>
+    <title>
+        Guide
+    </title>
+</head>
+        <body >
+            <header class="header">
+                <a href="#" class="logo">THE STOCKHOLM GUIDE</a>
+                <nav class="navbar">
+                    <a href="guideHome.html">Home</a>
+                    <a href="map.html">Map</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </header>
+            <div id="pres" class="presentation">Dagens väder och datum</div>
+            <div id="weather" class="weather"></div>
+          <div class="myClock" onload="updateClock()"></div>
+          <main class="dark">
+            <div class="cards">
+
+                <div class="card active" id="c1" style="--bg: url(https://lh3.googleusercontent.com/drive-viewer/AK7aPaD4PGz48gwPHJ78oQGcgQ9xzOyLXRpPFXi7A8Y4tIhVSIo3LmfbcC4azjwsBbT-JvbBhJ-FoJrQ-Lw9eUS9xcg7qabvFA=s1600)">
+                    <div class="shadow"></div>
+                     <div class="label">
+                      <div class="icon" style="--color: blue">
+                        <ion-icon name="sunny-outline"></ion-icon>
+
+                    </div>
+                    <div class="info">
+                        <div class="title" id="c1title" >Strandvägen</div>
+                    <div id="c1desc" >A walk along strandvägen</div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card" id="c2" style="--bg: url(https://lh3.googleusercontent.com/drive-viewer/AK7aPaCVyXN3-QVfBe-4PUfxlbYGEtyDVewrtn2MvqLdZL_Aeb7USeL6p-ffsHunTLr_uzVpCZhJH6AXBA6dVLpT9VwQzvHULg=s1600)">
+                    <div class="shadow"></div>
+                     <div class="label">
+                      <div class="icon" style="--color: blue">
+                        <ion-icon name="golf-outline"></ion-icon>
+
+                    </div>
+                    <div class="info">
+                        <div class="title" id="c2title" >Skansen</div>
+                    <div id="c2desc" >Open air museum</div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card" id="c3" style="--bg: url(https://lh3.googleusercontent.com/drive-viewer/AK7aPaCngGaaUWQpO7ulbT6mmLvpfQsZ45rj0UVWFaWJOuUMVM0FMDaTTNxJra6rj2Dji9NCDFdH8e5JYgT7YGUBtaJdilGMTQ=s1600)">
+                    <div class="shadow"></div>
+                     <div class="label">
+                      <div class="icon" style="--color: blue">
+                        <ion-icon name="rainy-outline"></ion-icon>
+
+                    </div>
+                    <div class="info" >
+                        <div class="title" id="c3title" >Skeppsholmen</div>
+                    <div id="c3desc" >A daytrip to Skeppsholmen</div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card" id="c4" style="--bg: url(https://lh3.googleusercontent.com/drive-viewer/AK7aPaD6W9TB6BVogiB0nJF4trGZv00M16Qs6BH1xn8X90vp1zi9GhbVmvvgM2mqgl7JnAh0Yzs93DNaxX3K5XgN8KMCWZ21Dg=s1600)">
+                    <div class="shadow"></div>
+                     <div class="label">
+                      <div class="icon" style="--color: blue">
+                        <ion-icon name="rainy-outline"></ion-icon>
+
+                    </div>
+                    <div class="info">
+                        <div class="title" id="c4title" >Drottninggatan</div>
+                    <div id="c4desc" >A lot of boutiques and things to see</div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </main>  
+        <aside>
+            <button id="dayB" >Day Theme</button>
+            <button id="nightB" >Night Theme</button>
+            <button id="rainB" >Rain Theme</button>
+        </aside>
+            
+          <!--  </main> -->
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="script.js"></script>
+
+          <!--   <footer> <a href="mailto:matteusengstrom@icloud.com">Kontakta mig här!</a> <a href="#History">Tillbaks upp</a> </footer> -->
+        </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name=author content="Matteus Engström">
+    <meta name="description" content="The home page">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" type = "text/css" href="cards.css?rnd=12345"/>
+    <title>
+        Service
+    </title>
+</head>
+        <body >
+            <header class="header">
+                <a href="#" class="logo">THE STOCKHOLM GUIDE</a>
+                <nav class="navbar">
+                    <a href="guideHome.html">Home</a>
+                    <a href="map.html">Map</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </header>
+            <div class="presentation"><p></p></div>
+          <div class="description"> Maps of the city</div>
+          <main class="dark">
+            <div class="cards">
+                <div id="map"></div>
+            <!--    <button id="button">Visa vart jag är (just nu)</button>
+                <button id="track">Följ min position</button>
+                <button id="stopTrack">Sluta följ min position</button> -->
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVfi9so5syvKqPzFbCmiDgvbWV_jc12WU&callback=initMap">
+                </script>
+            </div>
+        </main>  
+            
+          <!--  </main> -->
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="service.js"></script>
+
+          <!--   <footer> <a href="mailto:matteusengstrom@icloud.com">Kontakta mig här!</a> <a href="#History">Tillbaks upp</a> </footer> -->
+        </body>
+</html>
